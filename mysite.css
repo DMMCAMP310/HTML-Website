@@ -94,6 +94,7 @@ main {
 
 .portfolio-content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .box1 {
@@ -115,6 +116,30 @@ main {
 
 .box3 {
   background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 300px;
+}
+
+.box4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 300px;
+}
+
+.box5 {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 300px;
+}
+
+.box6 {
+  background-image: url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
   height: 250px;
